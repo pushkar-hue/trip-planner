@@ -1,8 +1,5 @@
-Sure! Here's a clean, concise `README.md` without any emojis:
 
----
 
-```markdown
 # Trip Planner API
 
 This is a FastAPI-based service that generates personalized 1-day travel itineraries using the Gemini LLM and provides weather information via OpenWeatherMap. It also includes an evaluation system that uses an LLM to assess the quality of the generated travel plan.
@@ -86,13 +83,4 @@ docker run -d -p 8000:8000 --env-file part1/.env trip-planner
 * API keys are read from `.env` using python-dotenv
 * Cloud deployment is possible on platforms like Render or Railway
 
-## License
 
-MIT License © 2025 Pushkar Sharma
-
-```
-
----
-
-Let me know if you'd also like a matching `.env.example` or a short `ANSWERS.md` template.
-```
